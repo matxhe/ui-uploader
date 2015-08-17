@@ -70,7 +70,7 @@ $uiUploader.startUpload({
                     console.log(file);
                     // response contains the server response
                     console.log(response);
-                }
+                },
                 onCompletedAll: function(files) {
                 	// files is an array of File objects
                 	console.log(files);
@@ -91,7 +91,7 @@ $uiUploader.startUpload({
                 },
                 onCompleted: function(file, response) {
                     // do stuff
-                }
+                },
                 onCompletedAll: function(files) {
                 	// do stuff
                 }
